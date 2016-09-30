@@ -27,6 +27,6 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
   },
   "scripts": {
-    "build": "gulp"
+    "postinstall": "echo postinstall time; ./node_modules/gulp/bin/gulp"
   }
 }
