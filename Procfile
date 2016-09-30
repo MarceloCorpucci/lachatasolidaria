@@ -1,1 +1,1 @@
-web: node lcs_template/node_modules/gulp/bin/gulp 
+web: node ./node_modules/gulp/bin/gulp 
