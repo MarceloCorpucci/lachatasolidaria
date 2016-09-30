@@ -96,3 +96,11 @@ gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js'], function() 
     gulp.watch('*.html', browserSync.reload);
     gulp.watch('js/**/*.js', browserSync.reload);
 });
+
+gulp.task('serveprod', function() {
+  connect.server({
+    root: 'lcs_template/',
+    port: process.env.PORT || 9550, // localhost:9550
+    livereload: false
+  });
+});
