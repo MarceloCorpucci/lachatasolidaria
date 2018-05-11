@@ -1,1 +1,1 @@
-web: node node_modules/gulp/bin/gulp serveprod -p $PORT
+web: node node_modules/gulp/bin/gulp serveprod
