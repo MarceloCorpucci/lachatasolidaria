@@ -1,1 +1,1 @@
-web: gulp serveprod -p $PORT
+web: gulp serveprod

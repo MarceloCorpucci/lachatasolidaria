@@ -101,6 +101,7 @@ gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js'], function() 
 gulp.task('serveprod', function() {
   connect.server({
     root: '',
+    host: '0.0.0.0',
     port: process.env.PORT || 9550, // localhost:9550
     livereload: false
   });
