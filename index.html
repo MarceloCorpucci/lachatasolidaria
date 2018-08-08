@@ -50,9 +50,6 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#next-travel">Proximo viaje</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#what-we-do">Que hacemos</a>
                     </li>
                     <li>
@@ -80,12 +77,46 @@
         <!-- /.container-fluid -->
     </nav>
 
+    <!-- Modal -->
+    <div id="mpModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Colaborá con débito automático mediante Mercado Pago.</h4>
+          </div>
+          <div class="modal-body">
+            <p>Para quienes quieran colaborar para que LCS pueda seguir cambiándole la realidad a los que más lo necesitan en El Impenetrable Chaqueño, contamos con una nueva forma para que puedan hacerlo. Por débito automático de manera fácil, segura y cómoda.</p>
+                
+            <p>Y lo más importante, cada uno ayuda con lo que quiera.</p>
+
+            <p>Clickeá <a href="http://mpago.la/3LQgYa">acá</a> para registrarte.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
     <header>
         <div class="header-content">
             <div class="header-content-inner">
                 <img src="img/LCSlogo-small.gif" alt="">
                 <hr>
                 <p>Somos un grupo de gente joven, con espíritu, que movidos por la situación de abandono en la cual se encuentran nuestros compatriotas en El Impenetrable chaqueño decidió actuar. </p>
+                
+                <p>Colaborá con nosotros mediante:</p>
+
+                <button type="button" class="btn btn-primary btn-xl page-scroll" data-toggle="modal" data-target="#mpModal">
+                    Mercado Pago
+                </button>
+
+                <a href="#donate-more" class="btn btn-primary btn-xl page-scroll">Transf. Bancaria</a>
+
                 <a href="#lcs-more" class="btn btn-primary btn-xl page-scroll">Más info</a>
             </div>
         </div>
@@ -105,16 +136,6 @@
 
                     <p class="text-faded">Somos totalmente concientes que este emprendimiento es un granito de arena y nada más. Pero estamos convencidos que de a granitos, sumando voluntades, podemos lograr un cambio sustancial.</p>
                     <a href="#what-we-do" class="page-scroll btn btn-default btn-xl sr-button">¿Que hacemos?</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="next-travel">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <img src="img/news/CHATA-SOLIDARIA-2.jpg" class="img-responsive" alt="">
                 </div>
             </div>
         </div>
@@ -453,6 +474,7 @@
                     <p>Asociación Civil La Chata Solidaria</p>
                     <p>CUIT 30715948482</p>
                     <p>Banco Santander Río S.A.</p>
+                    <p>Cuenta Corriente en pesos</p>
                     <p>Cuenta $: 132-012066/5</p>
                     <p>CBU: 0720132120000001206654</p>
                     <hr class="primary">
